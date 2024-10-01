@@ -1,0 +1,261 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+} 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	background-color: #f1f1f1;
+    text-align: center;
+    align-content: center;
+}
+.medsos ul li {
+	display: inline-block;
+	
+	margin-right: 15px;
+}
+.container{
+
+    color:  #333;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+    text-align: center;
+}
+
+header h1 {
+	padding:8px 0;
+    z-index: 1;
+}
+header h2 {
+	color:  #ffffff;
+	display: flex;
+	justify-content: center;
+}
+header ul {
+	float: right;
+    z-index: 1;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding:10px 5px;
+	display: inline-block;
+    color: #333;
+}
+header ul li a:hover {
+	background-color: #43bbec;
+	color: #333 ;
+}
+.active {
+	background-color: #43bbec;
+	color: #333 ;
+}
+.banner {
+	height: 60vh;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(20, 143, 119, .6);
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 15px 0;
+	border: 3px solid #fff;
+}
+ .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            z-index: 1000;
+        }
+
+        .menu li {
+            display: inline-block;
+            position: relative;
+        }
+
+        .menu li a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            padding: 0;
+            margin: 0;
+            border-top: 1px solid #ccc;
+        }
+
+        .menu li:hover ul {
+            display: block;
+        }
+
+        .menu li ul li {
+            display: block;
+        }
+
+
+
+
+
+/* styles.css */
+.submenu li {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000; /* Menentukan elemen ini berada di atas elemen lain */
+}
+
+.submenu ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.submenu li {
+    border-bottom: 1px solid #555;
+}
+
+.submenu li:last-child {
+    border-bottom: none;
+}
+
+.submenu a {
+    padding: 10px 15px;
+    color: white;
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: #666;
+}
+
+.submenu-parent:hover .submenu {
+    display: block;
+    z-index: 1000;
+}
+
+
+
+
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 10px 0;
+    text-align: left;
+    background-color: #f4f4f4;
+}
+h2 {
+     text-align: center;
+}
+h3 {
+     text-align: center;
+}
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.container {
+    width: 95%;
+    margin: 2px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+footer {
+     text-align: center;
+}
+h1 {
+    color: #fff;
+}
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Warna</title>
+    <style>
+        /* CSS untuk menentukan warna dan gaya */
+        header {
+            background-color: #4CAF50; /* Warna hijau untuk header */
+            color: white; /* Teks putih untuk header */
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #f1f1f1; /* Warna abu-abu terang untuk footer */
+            color: black; /* Teks hitam untuk footer */
+            padding: 10px;
+            text-align: center;
+        }
+        p {
+            color: #333; /* Warna abu-abu gelap untuk paragraf */
+            font-family: Arial, sans-serif; /* Font untuk paragraf */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ini Header</h1>
+    </header>
+
+    <main>
+        <p>Ini adalah paragraf pertama. Warna teks paragraf ini akan berbeda dari warna header dan footer.</p>
+        <p>Ini adalah paragraf kedua. Semua paragraf dalam dokumen ini akan menggunakan warna yang sama.</p>
+    </main>
+
+    <footer>
+        <p>Ini Footer</p>
+    </footer>
+</body>
+</html>
